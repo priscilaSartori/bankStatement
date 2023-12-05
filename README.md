@@ -1,27 +1,51 @@
-# BankStatement
+<h1 align="center">Extrato bancário</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+# Um controle financeiro.
+Esta é uma aplicação web de uma tela de extrato de conta corrente, onde podemos listar os lançamentos da conta corrente feitos de forma avulsa ou não. Além disso, que eu também possa nessa tela, inserir, alterar, e cancelar lançamento avulsos válidos.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Funcionalidades
+- Filtro: A tela do extrato tem um filtro de range de data, e a range inicial é de 2 dias, mostrando os dados do extrato referente a esses últimos 2 dias.
+- Incluir: É possível incluir um lançamento válido no extrato de forma avulsa (identificado no extrato como avulso)
+- Alterar: É possível alterar um lançamento avulso e válido do extrato, onde poderá ser alterado somente o valor e a data.
+- Cancelar: É possível cancelar um lançamento válido e avulso do extrato
+- Totalizador: Mostra o valor total dos lançamentos que foram listados no extrato.
+- Rota API: Para inserir um lançamento NÃO AVULSO
 
-## Code scaffolding
+# Layout
+<p align="center">EM DESENVOLVIMENTO</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Tecnologias e Ferramentas
+## Front-end
+- AngularJS
+- Material Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Back-end
+- .NET
+- SPA
 
-## Running unit tests
+## Banco de dados
+- EM DESENVOLVIMENTO
+  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Começando 🤖
+Para clonar e executar este aplicativo, você precisará de Git e Node.js (que vem com npm)e Angular CLI instalado em seu computador.
 
-## Running end-to-end tests
+```bash
+# Clone este repositório
+$ git clone git@github.com:priscilaSartori/bankStatement.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Acesse a pasta do projeto
+$ cd bankStatement
 
-## Further help
+# Instale as dependências
+$ npm install 
+# or
+$ yarn add install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Execute o projeto 📎 
+$ ng serve
+```
+
+Acesse o aplicativo em seu navegador em http://localhost:4200.
